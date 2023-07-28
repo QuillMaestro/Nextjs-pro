@@ -937,6 +937,7 @@ parallax & home seperator responsive
   @media screen and (max-width: 575px) {
     .navbar{
       margin-top: 20px;
+      position: absolute !important;
     }
 
     .navbar .container {
