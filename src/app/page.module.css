@@ -9,14 +9,19 @@
     overflow-x: hidden;
 }
 
+.card_box{
+    background-color: blueviolet;
+}
+
 @media (max-width: 999) {
-    .style.card{
-        width: 80%;
-    }
+    /* .style.card{
+        width: 200px !important;
+        height: 200px !important;
+    } */
 }
 
 @media (max-width: 554) {
     .style.card{
-        width: 50%;
+        height: 100px !important;
     }
 }

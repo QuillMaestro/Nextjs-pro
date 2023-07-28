@@ -1,7 +1,7 @@
 "use client"
 import style from './page.module.css'
 import React from 'react';
-import { Card, Col, Row, Button, Grid, Text } from "@nextui-org/react";
+import { Card, Col, Row, Button, Grid, Text, red } from "@nextui-org/react";
 
 const page = () => {
   return (
@@ -11,12 +11,12 @@ const page = () => {
     <Card css={{ w: "100%", h: "400px" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
     </Card.Header>
-    <Card.Body css={{ p: 0 }}>
-      <Card.Image
+    <Card.Body css={{ p: "0", bg: "#9c27b0" }}>
+      <Card.Image 
         src="images/nextpro1.png"
         objectFit="cover"
         width="100%"
-        height="100%"
+        height="200"
         alt="Relaxing app background"
       />
     </Card.Body>
