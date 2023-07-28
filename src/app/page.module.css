@@ -1,0 +1,22 @@
+
+.card_box{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url(https://images.pexels.com/photos/10771000/pexels-photo-10771000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+@media (max-width: 999) {
+    .style.card{
+        width: 80%;
+    }
+}
+
+@media (max-width: 554) {
+    .style.card{
+        width: 50%;
+    }
+}

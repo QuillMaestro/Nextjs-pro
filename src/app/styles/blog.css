@@ -1,0 +1,22 @@
+.about-images {
+    background: linear-gradient(to right, #CFE7fA 0%, #6393C1 100%);
+    border-radius: 20px;
+    box-shadow: 3px 3px 2px 2 rgba(35, 52, 128, 1);
+    height: 250px;
+  }
+
+  .image_box {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+
+  .cards{
+    justify-content: center;
+  }
+
+ .card_boxx{
+  -webkit-box-shadow: -5px -3px 1px 3px rgba(154, 123, 218, 0.87);
+-moz-box-shadow: -5px -3px 1px 3px rgba(154, 123, 218, 0.87);
+box-shadow: -5px -3px 1px 3px rgba(154, 123, 218, 0.87);
+ }
