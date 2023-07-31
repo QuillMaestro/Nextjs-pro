@@ -70,25 +70,25 @@ const Contact = () => {
                       <div class="row">
                         <div class="col-lg-6">
                           <fieldset>
-                            <input className='input_box' type="name" value={name}
+                            <input className='input_box' type="text" value={name}
                               onChange={(e) => setName(e.target.value)} id="name" placeholder="Your Name..." autocomplete="off" required />
                           </fieldset>
                         </div>
                         <div class="col-lg-6">
                           <fieldset>
-                            <input className='input_box' type="surname" value={surname}
+                            <input className='input_box' type="text" value={surname}
                               onChange={(e) => setSurname(e.target.value)} id="surname" placeholder="Your Surname..." autocomplete="off" required />
                           </fieldset>
                         </div>
                         <div class="col-lg-6">
                           <fieldset>
-                            <input className='input_box' type="text" value={email}
+                            <input className='input_box' type="email" value={email}
                               onChange={(e) => setEmail(e.target.value)} id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required />
                           </fieldset>
                         </div>
                         <div class="col-lg-6">
                           <fieldset>
-                            <input className='input_box' type="subject" value={subject}
+                            <input className='input_box' type="text" value={subject}
                               onChange={(e) => setSubject(e.target.value)} id="subject" placeholder="Subject..." autocomplete="off" />
                           </fieldset>
                         </div>

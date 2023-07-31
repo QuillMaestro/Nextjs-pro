@@ -10,14 +10,18 @@ import Toltost from '@/app/components/Toltost'
 import Footer from '../components/Footer'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Contact from '../components/Contact'
-import CrispChat from '@/app/components/Crips'
+// import CrispChat from '@/app/components/Crips'
+import Head from 'next/head'
 const home1 = () => {
     useEffect(() => {
         require("bootstrap/dist/js/bootstrap.bundle.min.js");
     }, []);
     return (
         <>
-            <CrispChat />
+            <Head>
+                <title>nextpro</title>
+            </Head>
+            {/* <CrispChat /> */}
             <Nav />
             {/* ===================== 
                   hero section start
@@ -92,7 +96,7 @@ const home1 = () => {
                 </div>
             </section>
 
-            {/* <!-- ***** Home Parallax Start ***** --> */}
+            {/* ==================== Home Parallax Start =========================== */}
 
             <section class="mini" id="section_3">
                 <div class="mini-content">
@@ -106,7 +110,9 @@ const home1 = () => {
                             </div>
                         </div>
 
-                        {/* <!-- ***** Mini Box Start ***** --> */}
+                        {/* =========================
+                              Mini Box Start
+                            =========================== */}
                         <div class="row">
                             <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                                 <a href="#" class="mini-box">
@@ -151,11 +157,15 @@ const home1 = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* <!-- ***** Mini Box End ***** --> */}
+                        {/* =========================
+                               Mini Box End
+                          =========================== */}
                     </div>
                 </div>
             </section>
-            {/* <!-- ***** Home Parallax End ***** --> */}
+            {/* ========================
+                   Home Parallax End
+              =========================== */}
             <section className='blog_bg' id='section_4'>
                 <div className='blog_sb'>
                     <div class="text-center pt-3">

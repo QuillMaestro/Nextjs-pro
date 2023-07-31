@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+  
+  /* Add a smooth transition effect when scrolling */
+  html {
+    scroll-behavior: smooth;
+    transition: scroll-behavior 0.5s ease-in-out;
+    overflow-x: hidden;
+  }
+  
+  /* Style the scroll bar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  /* Add a smooth scroll effect to anchor links */
+  a[href^="#"] {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  a[href^="#"]:hover {
+    color: #9f1e29;
+  }
+  
+  
+  

@@ -37,7 +37,6 @@
   body {
       background: var(--white-color);
       font-family: var(--body-font-family); 
-      overflow-x: hidden;
   }
   
   
@@ -582,7 +581,9 @@
       CONTACT Section             
     ==================--*/
   .contact_box{
+    position: relative;
     margin-top: 50px;
+    z-index: 50;
   }
   
   /*=================================
@@ -935,6 +936,17 @@ parallax & home seperator responsive
   }
   
   @media screen and (max-width: 575px) {
+    h2{
+      letter-spacing: 1px;
+      font-size: 20px;
+    }
+    .hero-title h1{
+      font-size: 30px;
+    }
+    
+      .hero h2 {
+        font-size: 25px;
+      }
     .navbar{
       margin-top: 20px;
       position: absolute !important;
