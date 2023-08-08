@@ -43,7 +43,7 @@ const home1 = () => {
 
                                 </div>
 
-                                <h2 class="mb-4">Ready for Freelance Assignments.</h2>
+                                <h2 class="mb-4">Ready for Freelance Assignments..</h2>
 
 
 
