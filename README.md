@@ -42,19 +42,19 @@ This will create an optimized production-ready build of the project.
 
 Nextjs-pro includes a live chat option to enable real-time communication with your users. To set up the live chat, follow these steps:
 
-1. Sign up for a live chat service provider (e.g., LiveChat, Tawk.to, or Crisp).
+1. Sign up for a live chat service provider (e.g., Crisp).
 
 2. Obtain the embed code provided by the live chat service.
 
-3. Open the `pages/_app.js` file and insert the embed code in the appropriate location.
+3. Open the `App/components/Crips.js` file and insert the embed code in the appropriate location.
 
 ## Working Contact Form
 
 Nextjs-pro comes with a pre-built working contact form. To configure and use the contact form, follow these steps:
 
-1. Open the `pages/contact.js` file.
+1. Open the `App/components/Contect.js` file.
 
-2. Update the email address in the `sendEmail` function with your desired recipient email address.
+2. Update the url in the `fabform.io` function with your desired recipient url address.
 
 3. Customize the form fields and validation as needed.
 
