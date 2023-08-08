@@ -2,6 +2,7 @@
 import style from './page.module.css'
 import React from 'react';
 import { Card, Col, Row, Button, Grid, Text, red } from "@nextui-org/react";
+import Link from 'next/link';
 
 const page = () => {
   return (
@@ -55,6 +56,7 @@ const page = () => {
         </Col>
         <Col>
           <Row justify="flex-end">
+            <Link href="/home1">
             <Button
               flat
               auto
@@ -69,7 +71,8 @@ const page = () => {
               >
                 Get App
               </Text>
-            </Button>
+            </Button>  </Link>
+                     
           </Row>
         </Col>
       </Row>
