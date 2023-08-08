@@ -48,7 +48,7 @@ const home1 = () => {
 
 
 
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
+                                <p class="mb-4"><a class="custom-btn btn custom-link" href="/">Let's begin</a></p>
                             </div>
                         </div>
 
