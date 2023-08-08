@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nextjs-pro
 
-## Getting Started
+Nextjs-pro is a powerful Next.js template designed to help you quickly bootstrap your Next.js projects. It comes with a set of features including a live chat option, a working contact form, and a responsive design. 
 
-First, run the development server:
+## Demo
+
+You can check out the live demo of Nextjs-pro [here](https://nextjs-pro-beta.vercel.app).
+
+## Installation
+
+To install and run Nextjs-pro on your local machine, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/your-username/nextjs-pro.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change into the project directory:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+cd nextjs-pro
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install the dependencies:
 
-## Learn More
+```bash
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Building the Project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To build the Nextjs-pro project, run the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
+
+This will create an optimized production-ready build of the project.
+
+## Live Chat Option
+
+Nextjs-pro includes a live chat option to enable real-time communication with your users. To set up the live chat, follow these steps:
+
+1. Sign up for a live chat service provider (e.g., LiveChat, Tawk.to, or Crisp).
+
+2. Obtain the embed code provided by the live chat service.
+
+3. Open the `pages/_app.js` file and insert the embed code in the appropriate location.
+
+## Working Contact Form
+
+Nextjs-pro comes with a pre-built working contact form. To configure and use the contact form, follow these steps:
+
+1. Open the `pages/contact.js` file.
+
+2. Update the email address in the `sendEmail` function with your desired recipient email address.
+
+3. Customize the form fields and validation as needed.
+
+## Responsive Design
+
+Nextjs-pro is built with a responsive design, ensuring that your application looks great on all devices and screen sizes.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Nextjs-pro is optimized for deployment on [Vercel](https://vercel.com/). To deploy your project on Vercel, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Sign up for a Vercel account if you haven't already.
+
+2. Install the Vercel CLI:
+
+```bash
+npm install -g vercel
+```
+
+3. Run the deployment command:
+
+```bash
+vercel
+```
+
+4. Follow the prompts and provide the necessary details to deploy your project.
+
+## Learn More
+
+To learn more about Next.js, take a look at the official [Next.js documentation](https://nextjs.org/docs).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
